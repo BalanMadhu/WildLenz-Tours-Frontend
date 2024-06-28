@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img_uplde{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.profile_pic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.img_flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.uploaded-image{
+  width: 250px;
+  height: 250px;
+  background-color: blue;
+}
+.input-box{
+  padding: 15px;
+  border-radius: 50px;
+  border: 5px solid #8995ff;
+  box-sizing: border-box;
+}
+
+.Userlist{
+  background-color: darkviolet;
+  padding: 10px;
+  display:flex;
+ gap: 10px;
+}
+.name{
+  font-style: italic;
+  font-family:'Courier New', Courier, monospace;  
+  display: flex; 
+  justify-content: center;
+}
+.email{
+  font-style: italic;
+  font-family:'Courier New', Courier, monospace;  
+  display: flex; 
+  justify-content: center;
+}
+.phone{
+  font-style: italic ;
+  font-family:'Courier New', Courier, monospace; 
+  display: flex; 
+  justify-content: center;
+}
+
+.users{
+  width: 50px;
+  border-radius: 100%;
+  height: 50px;
+}
+.userlist{
+  width: fit-content;
+  margin-inline: 2rem;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.username{
+  padding-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.userlists{
+    margin-top: 0%;
+} 
+ .meow{
+  margin-left: 35%;
+  margin-top: -14%; 
+ } 
+.chat{
+  height: 100svh;
+  font-family: Montserrat, Arial, Verdana;
+}
+
+.footer_box{
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+.chatComponent{
+  display: flex;
+}
+
+.chatsidebar {
+    height: 600px;
+  overflow-y: scroll;
+
+}

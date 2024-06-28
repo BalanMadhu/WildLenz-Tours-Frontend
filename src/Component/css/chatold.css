@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  }
+  .parentdiv{
+  width: 100%;
+  min-height: 850px;
+  /* background-color: aqua; */
+  }
+  .parentdiv::after{
+  content: " ";
+  
+  display: block;
+  clear: both;
+  }
+  .sidebar{
+  width: 24.5%;
+  min-height: 800px;
+  /* background-color: rgb(236, 252, 91); */
+  float: left;
+  
+  }
+  .chatsidebar{
+  width: 75%;
+  min-height: 800px;
+  /* background-color: rgb(223, 67, 202); */
+  float: right;
+  }
+  .userlists {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+  align-items: center;
+  }
+  .userlist {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  }
+  .users {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  }
+  
+  .username {
+  flex: 1;
+  }
+  .messagebox{
+  text-align: center;
+  }
+  .inputbox{
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  
+  }
+  .inputbox::placeholder{
+  padding-left: 40px;
+  }
+  .button{
+  width: 50px;
+  height: 35px;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 10px;
+  
+  
+  }
+  
+  .sender_text{
+  display: flex;
+  justify-content: end;
+  margin-inline: 30px;
+  }
+  
