@@ -55,18 +55,16 @@ export function TouristPlaces() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">WildLens Tours</a>
+        <p className="navbar-brand">WildLens Tours</p>
         <div className="collapse navbar-collapse d-flex justify-content-between w-100 px-4 mx-auto align-items-center">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Home <span className="sr-only mt-0">(current)</span></a>
+              <p className="nav-link">Home <span className="sr-only mt-0">(current)</span></p>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <p className="nav-link">About</p>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
-            </li>
+
           </ul>
           <form className="form-inline my-2 my-lg-0 d-flex gap-4">
             <input
